@@ -56,6 +56,6 @@ public class LoginTest extends BaseTestScripts {
 	}
 
 	public void TC_LOGIN_003_VerifyLoginFailsWithInvalidPassword() {
-
+		logger.info("*** Started TC_LOGIN_003_VerifyLoginFailsWithInvalidPassword ***");
 	}
 }
