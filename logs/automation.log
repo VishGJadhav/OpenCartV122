@@ -1,45 +1,6 @@
-12:54:00.418 [main] INFO  testcases.LoginTest - *** Entered password ***
-12:54:00.490 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
-12:54:10.527 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
-12:57:48.149 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
-12:57:48.310 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
-12:57:49.030 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
-12:57:49.265 [main] INFO  testcases.LoginTest - *** Entered username ***
-12:57:49.462 [main] INFO  testcases.LoginTest - *** Entered password ***
-12:57:49.552 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
-12:57:50.278 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
-12:57:52.805 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
-12:57:52.902 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
-12:57:53.545 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
-12:57:53.734 [main] INFO  testcases.LoginTest - *** Entered username ***
-12:57:53.847 [main] INFO  testcases.LoginTest - *** Entered password ***
-12:57:53.933 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
-12:58:03.982 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
-14:09:20.936 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
-14:09:21.115 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
-14:09:21.903 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
-14:09:22.170 [main] INFO  testcases.LoginTest - *** Entered username ***
-14:09:22.294 [main] INFO  testcases.LoginTest - *** Entered password ***
-14:09:22.391 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
-14:09:23.219 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
-14:09:25.695 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
-14:09:25.785 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
-14:09:26.424 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
-14:09:26.552 [main] INFO  testcases.LoginTest - *** Entered username ***
-14:09:26.636 [main] INFO  testcases.LoginTest - *** Entered password ***
-14:09:26.690 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
-14:09:36.760 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
-14:17:07.290 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
-14:17:07.421 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
-14:17:07.944 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
-14:17:08.091 [main] INFO  testcases.LoginTest - *** Entered username ***
-14:17:08.192 [main] INFO  testcases.LoginTest - *** Entered password ***
-14:17:08.246 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
-14:17:09.110 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
-14:17:11.468 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
-14:17:11.577 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
-14:17:12.342 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
-14:17:12.490 [main] INFO  testcases.LoginTest - *** Entered username ***
-14:17:12.577 [main] INFO  testcases.LoginTest - *** Entered password ***
-14:17:12.648 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
-14:17:22.691 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+15:15:14.917 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+15:15:15.550 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+15:15:15.679 [main] INFO  testcases.LoginTest - *** Entered username ***
+15:15:15.759 [main] INFO  testcases.LoginTest - *** Entered password ***
+15:15:15.807 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
+15:15:25.837 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***

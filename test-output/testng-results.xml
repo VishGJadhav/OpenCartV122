@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-08T17:58:28 IST" name="Suite" finished-at="2025-10-08T17:58:32 IST" duration-ms="4398">
+  <suite started-at="2025-10-09T15:14:46 IST" name="Suite" finished-at="2025-10-09T15:15:26 IST" duration-ms="39456">
     <groups>
       <group name="Master">
-        <method signature="AccountRegistration.TC_AccountRegistartion_001()[pri:0, instance:testcases.AccountRegistration@3faf2e7d]" name="TC_AccountRegistartion_001" class="testcases.AccountRegistration"/>
+        <method signature="LoginTest.TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials()[pri:0, instance:testcases.LoginTest@eb6449b]" name="TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials" class="testcases.LoginTest"/>
+        <method signature="LoginTest.TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername()[pri:0, instance:testcases.LoginTest@eb6449b]" name="TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername" class="testcases.LoginTest"/>
       </group> <!-- Master -->
-      <group name="Regression">
-        <method signature="AccountRegistration.TC_AccountRegistartion_001()[pri:0, instance:testcases.AccountRegistration@3faf2e7d]" name="TC_AccountRegistartion_001" class="testcases.AccountRegistration"/>
-      </group> <!-- Regression -->
+      <group name="Sanity">
+        <method signature="LoginTest.TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials()[pri:0, instance:testcases.LoginTest@eb6449b]" name="TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials" class="testcases.LoginTest"/>
+        <method signature="LoginTest.TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername()[pri:0, instance:testcases.LoginTest@eb6449b]" name="TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername" class="testcases.LoginTest"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-10-08T17:58:28 IST" name="Test" finished-at="2025-10-08T17:58:32 IST" duration-ms="4398">
-      <class name="testcases.AccountRegistration">
-        <test-method is-config="true" signature="initialize(java.lang.String,java.lang.String)[pri:0, instance:testcases.AccountRegistration@3faf2e7d]" started-at="2025-10-08T17:58:28 IST" name="initialize" finished-at="2025-10-08T17:58:30 IST" duration-ms="2095" status="PASS">
+    <test started-at="2025-10-09T15:14:46 IST" name="Test" finished-at="2025-10-09T15:15:26 IST" duration-ms="39456">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="initialize(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@eb6449b]" started-at="2025-10-09T15:14:47 IST" name="initialize" finished-at="2025-10-09T15:15:11 IST" duration-ms="24014" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,22 +24,46 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="TC_AccountRegistartion_001()[pri:0, instance:testcases.AccountRegistration@3faf2e7d]" started-at="2025-10-08T17:58:30 IST" name="TC_AccountRegistartion_001" finished-at="2025-10-08T17:58:32 IST" duration-ms="1935" status="PASS">
+        <test-method signature="TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials()[pri:0, instance:testcases.LoginTest@eb6449b]" started-at="2025-10-09T15:15:11 IST" name="TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials" finished-at="2025-10-09T15:15:12 IST" duration-ms="1851" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_AccountRegistartion_001 -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:testcases.AccountRegistration@3faf2e7d]" started-at="2025-10-08T17:58:32 IST" name="cleanup" finished-at="2025-10-08T17:58:32 IST" duration-ms="195" status="PASS">
+        </test-method> <!-- TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:testcases.LoginTest@eb6449b]" started-at="2025-10-09T15:15:12 IST" name="cleanup" finished-at="2025-10-09T15:15:13 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- testcases.AccountRegistration -->
+        <test-method is-config="true" signature="initialize(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@eb6449b]" started-at="2025-10-09T15:15:13 IST" name="initialize" finished-at="2025-10-09T15:15:14 IST" duration-ms="1669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername()[pri:0, instance:testcases.LoginTest@eb6449b]" started-at="2025-10-09T15:15:14 IST" name="TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername" finished-at="2025-10-09T15:15:25 IST" duration-ms="11004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:testcases.LoginTest@eb6449b]" started-at="2025-10-09T15:15:25 IST" name="cleanup" finished-at="2025-10-09T15:15:26 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- testcases.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
