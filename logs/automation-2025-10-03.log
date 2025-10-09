@@ -1,0 +1,63 @@
+16:39:51.820 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+16:39:52.086 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+16:39:54.202 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+16:39:54.299 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+16:39:54.793 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+16:41:18.461 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+16:41:18.740 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+16:41:20.753 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+16:41:20.855 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+16:41:21.468 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+16:41:21.578 [main] INFO  testcases.LoginTest - *** Entered username ***
+16:41:21.643 [main] INFO  testcases.LoginTest - *** Entered password ***
+16:43:07.486 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
+16:43:22.909 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+16:43:23.167 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+16:43:25.583 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+16:43:25.703 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+16:43:26.384 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+16:43:26.499 [main] INFO  testcases.LoginTest - *** Entered username ***
+16:43:26.600 [main] INFO  testcases.LoginTest - *** Entered password ***
+16:50:22.692 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+16:50:22.965 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+16:50:26.465 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+16:50:26.579 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+16:50:27.303 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+16:50:27.417 [main] INFO  testcases.LoginTest - *** Entered username ***
+16:50:27.491 [main] INFO  testcases.LoginTest - *** Entered password ***
+17:33:53.305 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:33:53.580 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:33:55.820 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+17:33:55.917 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+17:33:56.470 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+17:33:56.567 [main] INFO  testcases.LoginTest - *** Entered username ***
+17:33:56.636 [main] INFO  testcases.LoginTest - *** Entered password ***
+17:33:56.692 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
+17:45:49.789 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:45:50.056 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:45:52.205 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+17:45:52.338 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+17:45:52.963 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+17:45:53.072 [main] INFO  testcases.LoginTest - *** Entered username ***
+17:45:53.136 [main] INFO  testcases.LoginTest - *** Entered password ***
+17:45:53.194 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
+17:46:03.228 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+17:47:11.522 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:47:11.798 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:47:13.832 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
+17:47:13.963 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+17:47:14.503 [main] INFO  testcases.LoginTest - *** Clicked on login link ***

@@ -1,0 +1,58 @@
+15:52:28.799 [main] INFO  testcases.LoginTestDTT - *** Ended TC_loginDTT_001 ***
+15:52:30.825 [main] INFO  testcases.LoginTestDTT - *** Started TC_loginDTT_001 ***
+15:52:30.916 [main] INFO  testcases.LoginTestDTT - *** Clicked on my account link ***
+15:52:31.454 [main] INFO  testcases.LoginTestDTT - *** Clicked on login link ***
+15:52:31.568 [main] INFO  testcases.LoginTestDTT - *** Entered username ***
+15:52:31.636 [main] INFO  testcases.LoginTestDTT - *** Entered password ***
+15:52:31.684 [main] INFO  testcases.LoginTestDTT - *** Clicked on login buttn ***
+15:52:33.044 [main] INFO  testcases.LoginTestDTT - *** Ended TC_loginDTT_001 ***
+15:55:47.144 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+15:55:47.412 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+15:55:49.727 [main] INFO  testcases.AccountRegistration - *** Started the TC_AccountRegistartion_001 ***
+15:55:49.847 [main] INFO  testcases.AccountRegistration - *** Clicked on my account link ***
+15:55:50.602 [main] INFO  testcases.AccountRegistration - *** Clicked on my Registartion link ***
+15:55:50.683 [main] INFO  testcases.AccountRegistration - *** Entered first name ***
+15:55:50.757 [main] INFO  testcases.AccountRegistration - *** Entered Last name ***
+15:55:50.811 [main] INFO  testcases.AccountRegistration - *** Entered Email ***
+15:55:50.863 [main] INFO  testcases.AccountRegistration - *** Entered password ***
+15:55:50.912 [main] INFO  testcases.AccountRegistration - *** Clicked on the toggle button ***
+15:55:50.967 [main] INFO  testcases.AccountRegistration - *** Clicked on the continue ***
+15:55:51.937 [main] INFO  testcases.AccountRegistration - *** Ended the TC_AccountRegistartion_001 ***
+15:55:53.988 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
+15:55:54.095 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+15:55:54.743 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+15:55:54.866 [main] INFO  testcases.LoginTest - *** Entered username ***
+15:55:54.938 [main] INFO  testcases.LoginTest - *** Entered password ***
+15:55:54.983 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
+15:55:55.796 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
+15:55:57.747 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+15:55:57.848 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+15:55:58.595 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+15:55:58.736 [main] INFO  testcases.LoginTest - *** Entered username ***
+15:55:58.836 [main] INFO  testcases.LoginTest - *** Entered password ***
+15:55:58.900 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
+15:56:08.963 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+15:57:45.153 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+15:57:45.456 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+15:57:47.597 [main] INFO  testcases.AccountRegistration - *** Started the TC_AccountRegistartion_001 ***
+15:57:47.723 [main] INFO  testcases.AccountRegistration - *** Clicked on my account link ***
+15:57:48.449 [main] INFO  testcases.AccountRegistration - *** Clicked on my Registartion link ***
+15:57:48.544 [main] INFO  testcases.AccountRegistration - *** Entered first name ***
+15:57:48.601 [main] INFO  testcases.AccountRegistration - *** Entered Last name ***
+15:57:48.651 [main] INFO  testcases.AccountRegistration - *** Entered Email ***
+15:57:48.703 [main] INFO  testcases.AccountRegistration - *** Entered password ***
+15:58:00.894 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
+15:58:00.979 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+15:58:01.645 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+15:58:01.752 [main] INFO  testcases.LoginTest - *** Entered username ***
+15:58:01.822 [main] INFO  testcases.LoginTest - *** Entered password ***
+15:58:01.869 [main] INFO  testcases.LoginTest - *** Clicked on login buttn ***
+15:58:02.590 [main] INFO  testcases.LoginTest - *** Ended TC_LOGIN_001_VerifySuccessfulLoginWithValidCredentials ***
+15:58:04.605 [main] INFO  testcases.LoginTest - *** Started TC_LOGIN_002_VerifyLoginFailsWithInvalidUsername ***
+15:58:04.696 [main] INFO  testcases.LoginTest - *** Clicked on my account link ***
+15:58:05.239 [main] INFO  testcases.LoginTest - *** Clicked on login link ***
+15:58:05.339 [main] INFO  testcases.LoginTest - *** Entered username ***

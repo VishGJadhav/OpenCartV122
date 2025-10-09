@@ -1,0 +1,47 @@
+20:37:57.885 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:37:57.903 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:37:57.904 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:37:57.904 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:37:57.917 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:37:57.938 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:37:57.939 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:37:57.951 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:37:57.952 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:37:57.953 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:37:57.967 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:37:57.967 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:37:57.968 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:37:57.982 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:37:57.983 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:37:57.983 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:37:57.996 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:37:57.997 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:37:57.997 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:37:58.017 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:37:58.017 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:37:58.018 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:38:00.477 [main] INFO  testcases.LoginTestDTT - *** Started TC_loginDTT_001 ***
+20:38:00.631 [main] INFO  testcases.LoginTestDTT - *** Clicked on my account link ***
+20:38:01.414 [main] INFO  testcases.LoginTestDTT - *** Clicked on login link ***
+20:38:01.651 [main] INFO  testcases.LoginTestDTT - *** Entered username ***
+20:38:01.744 [main] INFO  testcases.LoginTestDTT - *** Entered password ***
+20:38:01.821 [main] INFO  testcases.LoginTestDTT - *** Clicked on login buttn ***
+20:38:03.945 [main] INFO  testcases.LoginTestDTT - *** Ended TC_loginDTT_001 ***
+20:38:06.837 [main] INFO  testcases.LoginTestDTT - *** Started TC_loginDTT_001 ***
+20:38:06.979 [main] INFO  testcases.LoginTestDTT - *** Clicked on my account link ***
+20:38:07.930 [main] INFO  testcases.LoginTestDTT - *** Clicked on login link ***
+20:38:08.083 [main] INFO  testcases.LoginTestDTT - *** Entered username ***
+20:38:08.178 [main] INFO  testcases.LoginTestDTT - *** Entered password ***
+20:38:08.238 [main] INFO  testcases.LoginTestDTT - *** Clicked on login buttn ***
+20:38:18.291 [main] INFO  testcases.LoginTestDTT - *** Ended TC_loginDTT_001 ***
+20:38:20.481 [main] INFO  testcases.LoginTestDTT - *** Started TC_loginDTT_001 ***
+20:38:20.619 [main] INFO  testcases.LoginTestDTT - *** Clicked on my account link ***
+20:38:21.487 [main] INFO  testcases.LoginTestDTT - *** Clicked on login link ***
+20:38:21.744 [main] INFO  testcases.LoginTestDTT - *** Entered username ***
+20:38:21.874 [main] INFO  testcases.LoginTestDTT - *** Entered password ***
+20:38:22.017 [main] INFO  testcases.LoginTestDTT - *** Clicked on login buttn ***
+20:38:23.844 [main] INFO  testcases.LoginTestDTT - *** Ended TC_loginDTT_001 ***
+20:38:26.194 [main] INFO  testcases.LoginTestDTT - *** Started TC_loginDTT_001 ***
+20:38:26.344 [main] INFO  testcases.LoginTestDTT - *** Clicked on my account link ***
+20:38:27.059 [main] INFO  testcases.LoginTestDTT - *** Clicked on login link ***
+20:38:27.227 [main] INFO  testcases.LoginTestDTT - *** Entered username ***

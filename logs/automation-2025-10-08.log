@@ -1,0 +1,57 @@
+17:39:18.247 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Clicked on my Registartion link ***
+17:39:18.341 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Entered first name ***
+17:39:18.374 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Entered Last name ***
+17:39:18.412 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Entered Email ***
+17:39:18.444 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Entered password ***
+17:39:18.544 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Clicked on the toggle button ***
+17:39:18.732 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Clicked on the continue ***
+17:39:19.642 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Ended the TC_AccountRegistartion_001 ***
+17:41:02.925 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\crossbrowsertesting.xml"
+17:41:03.259 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\crossbrowsertesting.xml
+
+17:41:05.922 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Started the TC_AccountRegistartion_001 ***
+17:41:06.124 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Clicked on my account link ***
+17:41:06.726 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Clicked on my Registartion link ***
+17:41:06.840 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Entered first name ***
+17:41:06.907 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Entered Last name ***
+17:41:06.999 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Entered Email ***
+17:41:07.091 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Entered password ***
+17:41:07.201 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Clicked on the toggle button ***
+17:41:07.349 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Clicked on the continue ***
+17:41:07.951 [TestNG-tests-1] INFO  testcases.AccountRegistration - *** Ended the TC_AccountRegistartion_001 ***
+17:41:08.373 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Started the TC_AccountRegistartion_001 ***
+17:41:08.507 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Clicked on my account link ***
+17:41:09.132 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Clicked on my Registartion link ***
+17:41:09.191 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Entered first name ***
+17:41:09.221 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Entered Last name ***
+17:41:09.304 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Entered Email ***
+17:41:09.338 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Entered password ***
+17:41:09.417 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Clicked on the toggle button ***
+17:41:09.540 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Clicked on the continue ***
+17:41:10.262 [TestNG-tests-3] INFO  testcases.AccountRegistration - *** Ended the TC_AccountRegistartion_001 ***
+17:49:32.946 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:49:33.226 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:51:06.462 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:51:06.770 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:52:16.207 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:52:16.463 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:54:10.330 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:54:10.588 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:54:58.016 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:54:58.278 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:57:26.451 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
+17:57:26.727 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml
+
+17:57:49.396 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\vjadhav\Desktop\CS_AutomationFramework\OpenCartProject\Master.xml"
