@@ -13,7 +13,7 @@ pipeline {
                 echo "Checking out code from GitHub..."
                 git branch: 'main',
                     url: 'https://github.com/VishGJadhav/OpenCartV122.git'
-                    add: credentialsId: 'github-token'
+                    credentialsId: 'github-token'
             }
         }
 
