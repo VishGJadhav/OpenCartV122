@@ -2,18 +2,21 @@ pipeline {
     agent any
 
     environment {
-        // Set browser for Selenium tests (optional)
         BROWSER = 'chrome'
     }
 
-    stages {
+    triggers {
+        // Trigger pipeline on GitHub push to main branch
+        githubPush()
+    }
 
+    stages {
         stage('Checkout Code') {
-           steps {
-                echo "Git checkout step must be inside 'steps'"
+            steps {
+                echo "Checking out code..."
                 git branch: 'main',
                     url: 'https://github.com/VishGJadhav/OpenCartV122.git',
-                    credentialsId: 'github-token' // Must match your Jenkins credential ID
+                    credentialsId: 'github-token'
             }
         }
 
@@ -35,9 +38,7 @@ pipeline {
     post {
         always {
             echo "Publishing test results..."
-            // Publish JUnit XML reports
             junit '**/target/surefire-reports/*.xml'
-            // Archive any build artifacts if needed
             archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
         }
 
