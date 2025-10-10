@@ -9,8 +9,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/VishGJadhav/OpenCartV122.git'
-                                    credentialsId: 'github-token'
+                 git branch: 'main', 
+                    url: 'https://github.com/VishGJadhav/OpenCartV122.git', 
+                    credentialsId: 'github-token' 
             }
         }
 
