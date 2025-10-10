@@ -9,11 +9,11 @@ pipeline {
     stages {
 
         stage('Checkout Code') {
-            steps {
-                echo "Checking out code from GitHub..."
+           steps {
+                echo "Git checkout step must be inside 'steps'"
                 git branch: 'main',
-                    url: 'https://github.com/VishGJadhav/OpenCartV122.git'
-                    credentialsId: 'github-token'
+                    url: 'https://github.com/VishGJadhav/OpenCartV122.git',
+                    credentialsId: 'github-token' // Must match your Jenkins credential ID
             }
         }
 
