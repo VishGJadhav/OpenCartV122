@@ -6,7 +6,7 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<parameter name="os" value="windows"></parameter>
-		<parameter name="browser" value="edge"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 		<class name="testcases.AccountRegistration" />
 			<!--<class name="testcases.LoginTest" />-->
