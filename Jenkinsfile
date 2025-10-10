@@ -44,7 +44,7 @@ pipeline {
 
         success {
             echo "All tests passed!"
-            mail to: 'recipient@example.com',
+            mailto: 'vishnukantjadhav1996@gmail.com',
                  subject: "Jenkins Pipeline Success: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                  body: """Hello,
 
