@@ -1,43 +1,44 @@
 pipeline {
     agent any
 
-    triggers {
-        // This enables automatic builds when GitHub webhook triggers Jenkins
-        githubPush()
+    tools {
+        jdk 'JDK21'          // Must match the JDK name in Jenkins configuration
+        maven 'Maven3'       // Must match the Maven name in Jenkins
     }
 
     stages {
         stage('Checkout') {
             steps {
-                echo "Checking out code from main branch..."
-                checkout scm
+                git branch: 'main', url: 'https://github.com/username/repo.git'
             }
         }
 
         stage('Build') {
             steps {
-                echo "Running Maven build..."
-                bat 'mvn clean install -DskipTests'
+                echo "Building project..."
+                sh 'mvn clean compile'
             }
         }
 
-        stage('Test') {
+        stage('Run Tests') {
             steps {
-                echo "Running Tests..."
-                bat 'mvn test'
-            }
-        }
-
-        stage('Post-Build') {
-            steps {
-                echo "Build completed successfully!"
+                echo "Running automation tests..."
+                sh 'mvn test'
             }
         }
     }
 
     post {
+        always {
+            echo "Publishing test results..."
+            junit '**/target/surefire-reports/*.xml'
+            archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
+        }
+        success {
+            echo "Tests passed!"
+        }
         failure {
-            echo "Build failed! Check console output for details."
+            echo "Some tests failed."
         }
     }
 }
