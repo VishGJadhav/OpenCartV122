@@ -1,30 +1,32 @@
 pipeline {
     agent any
 
-    tools {
-        jdk 'Myajava'          // Must match the JDK name in Jenkins configuration
-        maven 'mvn installer'       // Must match the Maven name in Jenkins
+    environment {
+        // Set browser for Selenium tests (optional)
+        BROWSER = 'chrome'
     }
 
     stages {
-        stage('Checkout') {
+
+        stage('Checkout Code') {
             steps {
-                 git branch: 'main', 
-                    url: 'https://github.com/VishGJadhav/OpenCartV122.git', 
-                    credentialsId: 'github-token' 
+                echo "Checking out code from GitHub..."
+                git branch: 'main',
+                    url: 'https://github.com/VishGJadhav/OpenCartV122.git'
+                    add: credentialsId: 'github-token'
             }
         }
 
-        stage('Build') {
+        stage('Build Project') {
             steps {
-                echo "Building project..."
+                echo "Building project with Maven..."
                 sh 'mvn clean compile'
             }
         }
 
         stage('Run Tests') {
             steps {
-                echo "Running automation tests..."
+                echo "Running Selenium/Java tests..."
                 sh 'mvn test'
             }
         }
@@ -33,14 +35,18 @@ pipeline {
     post {
         always {
             echo "Publishing test results..."
+            // Publish JUnit XML reports
             junit '**/target/surefire-reports/*.xml'
+            // Archive any build artifacts if needed
             archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
         }
+
         success {
-            echo "Tests passed!"
+            echo "All tests passed!"
         }
+
         failure {
-            echo "Some tests failed."
+            echo "Some tests failed!"
         }
     }
 }
